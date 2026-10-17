@@ -1,0 +1,18 @@
+# 采集产物（太大，不入库）
+out/
+profile/
+cookies/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 视频与音频中间产物
+*.mp4
+*.m4a
+*.part
+
+# 系统垃圾
+Thumbs.db
+.DS_Store

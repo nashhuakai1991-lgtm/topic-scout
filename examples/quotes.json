@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-14T22:40:44",
+  "note": "usable_as_quote=true 表示该条正文可直接引用（字幕/转写级）；desc 级为官方简介，可引用但须注明『据官方简介』。",
+  "quotes": [
+    {
+      "key": "[B站#2]",
+      "platform": "B站",
+      "author": "AI大模型老张",
+      "title": "【2026版】这绝对是b站将Dify工作流讲的最好的教程，手把手带你从0开始搭建20+AI应用，存下吧，比啃书好太多了！拿走不谢，允许白嫖！让你少走99%弯路！",
+      "url": "https://www.bilibili.com/video/BV1eL3C6GEZa",
+      "published": "2026-07-29",
+      "quote": "如果视频对你有用的话，一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！ 【视频配套资料+问题解答+请看评论区置顶领取哦】",
+      "quote_type": "desc",
+      "usable_as_quote": false
+    },
+    {
+      "key": "[B站#3]",
+      "platform": "B站",
+      "author": "远坂凛LOVE",
+      "title": "用通义千问实现B站看日语直播实时翻译",
+      "url": "https://www.bilibili.com/video/BV1vsq7YgE6A",
+      "published": "2024-12-08",
+      "quote": "通义千问有时候会出现卡住，无法翻译情况，大家可以刷新，关掉重新打开标签页，恢复翻译功能。",
+      "quote_type": "desc",
+      "usable_as_quote": false
+    },
+    {
+      "key": "[B站#4]",
+      "platform": "B站",
+      "author": "AVCLab",
+      "title": "【经典大模型论文导读】Qwen技术演进：从Qwen2.5到Qwen3.5",
+      "url": "https://www.bilibili.com/video/BV1H5H46PEaD",
+      "published": "2026-10-05",
+      "quote": "本视频围绕 Qwen 系列大模型的技术演进，从基础模型类型与 Transformer 核心组件出发，系统梳理 Qwen2.5、Qwen3、Qwen3-Next、Qwen3-VL 与 Qwen3.5 Agent 的架构及训练思路，并结合 LoRA 微调实验说明大模型的高效适配流程。 【主要内容】 • Dense 与 MoE、Base / Instruct / Thinking 等基础概念 • GQA、MQA、RoPE、SwiGLU、Pre-RMSNorm 等关键组件 • Qwen2.5 的预训练、后训练及",
+      "quote_type": "desc",
+      "usable_as_quote": false
+    },
+    {
+      "key": "[B站#5]",
+      "platform": "B站",
+      "author": "会弹琴的我",
+      "title": "千问Studio与普通版的区别",
+      "url": "https://www.bilibili.com/video/BV1o9oeBYE8j",
+      "published": "2026-04-27",
+      "quote": "这两个链接是阿里通义千问（Qwen）官方产品的两个不同面向： · https://qwen.ai/home (Qwen Studio)：品牌与产品展示窗口。主要功能是集中展示 Qwen 系列的全部产品和技术，包括 API、开源模型、开发者工具、研究动态等。它更像一个产品门户，提供全面的技术与能力概览。 · https://chat.qwen.ai/ (Qwen Chat)：主力 AI 对话平台。是一个可以直接使用的 AI 对话助手，主打聊天、创作等工作。它功能强大且免费，支持文本、图像、音频等交流，并集",
+      "quote_type": "desc",
+      "usable_as_quote": false
+    }
+  ],
+  "needs_manual": [
+    {
+      "key": "[B站#1]",
+      "reason": "仅有标题，无正文——引用前必须拿到字幕/转写，否则不得写成『他说过』",
+      "title": "从夯到拉，锐评2026全球通用AI助手排名，纯主观，不喜请直接开喷",
+      "url": "https://www.bilibili.com/video/BV1Q2iXBtEme",
+      "platform": "B站"
+    }
+  ],
+  "stats": {
+    "citable": 4,
+    "needs_manual": 1
+  }
+}

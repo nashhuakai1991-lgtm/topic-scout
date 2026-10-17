@@ -1,0 +1,585 @@
+{
+  "generated_at": "2026-10-14T22:40:51",
+  "reference_year": 2026,
+  "stats": {
+    "high_confidence_terms": 0,
+    "medium_confidence_terms": 0,
+    "single_source_terms": 40,
+    "anomalies": 0,
+    "todo_items": 16,
+    "verdict": "多为一手孤证，注意区分『事实』与『某人观点』。"
+  },
+  "consistency": {
+    "high": [],
+    "mid": [],
+    "single": [
+      {
+        "term": "全球",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "锐评",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "用A",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "接开",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "到拉",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "纯主",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "夯到",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "开喷",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "排名",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "6全",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "26",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]",
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "通用",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "02",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]",
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "请直",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "不喜",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "主观",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "从夯",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "20",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]",
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "评2",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "直接",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]",
+          "[B站#5]"
+        ]
+      },
+      {
+        "term": "喜请",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "助手",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]",
+          "[B站#5]"
+        ]
+      },
+      {
+        "term": "球通",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "I助",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "手排",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]"
+        ]
+      },
+      {
+        "term": "AI",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#1]",
+          "[B站#2]",
+          "[B站#5]"
+        ]
+      },
+      {
+        "term": "开始",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "下U",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "作流",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "从0",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "键三",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "问题",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "将D",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "一下",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "看评",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "y工",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "三连",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "绝对",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "拿走",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      },
+      {
+        "term": "许白",
+        "platform_count": 1,
+        "platforms": [
+          "bilibili"
+        ],
+        "items": [
+          "[B站#2]"
+        ]
+      }
+    ],
+    "total_items": 5
+  },
+  "anomalies": [],
+  "timeline_warnings": [],
+  "todo_verify": [
+    {
+      "type": "孤证核校",
+      "claim": "全球",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "锐评",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "用A",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "接开",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "到拉",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "纯主",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "夯到",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "开喷",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "排名",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "6全",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "26",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]",
+        "[B站#2]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "通用",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "02",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]",
+        "[B站#2]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "请直",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "孤证核校",
+      "claim": "不喜",
+      "why": "仅出现于单一平台，属于孤证；引用前须另行检索复核",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "WebSearch 该说法 + 权威源关键词"
+    },
+    {
+      "type": "补正文",
+      "claim": "从夯到拉，锐评2026全球通用AI助手排名，纯主观，不喜请直接开喷",
+      "why": "仅有标题，无正文——引用前必须拿到字幕/转写，否则不得写成『他说过』",
+      "seen_in": [
+        "[B站#1]"
+      ],
+      "method": "取字幕/转写；拿不到则不得引用"
+    }
+  ],
+  "policy": {
+    "可信度分级": {
+      "高": "≥3 个独立平台一致，且数字核校通过",
+      "中": "2 个来源支持，或数字口径存在差异",
+      "低": "仅单一来源 / UGC / 有社区争议"
+    },
+    "交付要求": "文档必须含『来源与可信度说明』与『交叉验证与存疑』两章节",
+    "禁令": "不得给所有结论都标高置信度（等于没收据）"
+  }
+}

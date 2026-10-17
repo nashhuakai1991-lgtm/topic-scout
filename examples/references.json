@@ -1,0 +1,103 @@
+{
+  "topic": "通义千问",
+  "generated_at": "2026-10-14T22:40:44",
+  "collected_at": "2026-10-14T22:40:17",
+  "total": 5,
+  "rows": [
+    {
+      "rank": 1,
+      "platform": "bilibili",
+      "platform_name": "B站",
+      "title": "从夯到拉，锐评2026全球通用AI助手排名，纯主观，不喜请直接开喷",
+      "author": "软件侠何二",
+      "url": "https://www.bilibili.com/video/BV1Q2iXBtEme",
+      "published": "2026-01-08",
+      "metrics": {
+        "views": 1028953,
+        "likes": 11439,
+        "comments": 5950,
+        "collects": 15376,
+        "shares": null
+      },
+      "hot_score": 63064.46,
+      "content_source": "",
+      "title_key": "[B站#1]"
+    },
+    {
+      "rank": 2,
+      "platform": "bilibili",
+      "platform_name": "B站",
+      "title": "【2026版】这绝对是b站将Dify工作流讲的最好的教程，手把手带你从0开始搭建20+AI应用，存下吧，比啃书好太多了！拿走不谢，允许白嫖！让你少走99%弯路！",
+      "author": "AI大模型老张",
+      "url": "https://www.bilibili.com/video/BV1eL3C6GEZa",
+      "published": "2026-07-29",
+      "metrics": {
+        "views": 58604,
+        "likes": 2571,
+        "comments": 180,
+        "collects": 5279,
+        "shares": null
+      },
+      "hot_score": 11421.68,
+      "content_source": "desc",
+      "title_key": "[B站#2]"
+    },
+    {
+      "rank": 3,
+      "platform": "bilibili",
+      "platform_name": "B站",
+      "title": "用通义千问实现B站看日语直播实时翻译",
+      "author": "远坂凛LOVE",
+      "url": "https://www.bilibili.com/video/BV1vsq7YgE6A",
+      "published": "2024-12-08",
+      "metrics": {
+        "views": 32572,
+        "likes": 354,
+        "comments": 62,
+        "collects": 623,
+        "shares": null
+      },
+      "hot_score": 1976.84,
+      "content_source": "desc",
+      "title_key": "[B站#3]"
+    },
+    {
+      "rank": 4,
+      "platform": "bilibili",
+      "platform_name": "B站",
+      "title": "【经典大模型论文导读】Qwen技术演进：从Qwen2.5到Qwen3.5",
+      "author": "AVCLab",
+      "url": "https://www.bilibili.com/video/BV1H5H46PEaD",
+      "published": "2026-10-05",
+      "metrics": {
+        "views": 6216,
+        "likes": 318,
+        "comments": 7,
+        "collects": 939,
+        "shares": null
+      },
+      "hot_score": 1768.12,
+      "content_source": "desc",
+      "title_key": "[B站#4]"
+    },
+    {
+      "rank": 5,
+      "platform": "bilibili",
+      "platform_name": "B站",
+      "title": "千问Studio与普通版的区别",
+      "author": "会弹琴的我",
+      "url": "https://www.bilibili.com/video/BV1o9oeBYE8j",
+      "published": "2026-04-27",
+      "metrics": {
+        "views": 36108,
+        "likes": 320,
+        "comments": 227,
+        "collects": 255,
+        "shares": null
+      },
+      "hot_score": 1762.36,
+      "content_source": "desc",
+      "title_key": "[B站#5]"
+    }
+  ]
+}

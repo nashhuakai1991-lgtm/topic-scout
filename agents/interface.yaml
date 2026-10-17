@@ -1,0 +1,63 @@
+interface:
+  display_name: "Topic Scout"
+  short_description: "按主题在全网自媒体检索高互动内容，蒸馏成图文并茂的原创内容并标注出处"
+  default_prompt: "用 $topic-scout 检索「在家做面包」这个主题在 B站/抖音/小红书等平台的高赞内容，每个平台取前5名，蒸馏成一篇图文并茂的原创内容，标注参考来源，最后问我是否需要做成小视频。"
+skill:
+  inputs:
+    - name: topic
+      type: string
+      required: true
+      description: 主题或内容关键词，如 "在家做面包"、"装修避坑"
+    - name: platforms
+      type: string[]
+      required: false
+      description: 限定平台，可选 bilibili/douyin/xiaohongshu/kuaishou/youtube/x；默认全平台全开
+    - name: top_n
+      type: integer
+      required: false
+      description: 每平台取前 N 名，默认 5
+    - name: min_likes
+      type: integer
+      required: false
+      description: 过滤低于该点赞量的条目，默认 0（不过滤）
+    - name: figures
+      type: string
+      required: false
+      description: 配图来源策略，默认 video-frame（视频截帧）
+  outputs:
+    - name: collected_json
+      type: file
+      description: 六平台 TopN 结构化数据 out/collected.json（含 source_status）
+    - name: source_status_json
+      type: file
+      description: 数据源状态摘要 out/source_status.json
+    - name: references_json
+      type: file
+      description: 参考来源清单 out/references.json
+    - name: verification_json
+      type: file
+      description: 交叉验证与存疑清单 out/verification.json
+    - name: report_html
+      type: file
+      description: 最终图文并茂单文件报告 out/report.html
+    - name: report_md
+      type: file
+      description: Markdown 底稿 out/report.md
+    - name: third_party_sources
+      type: table
+      description: 第三方网页来源表（多源兜底时必列，含 URL 与可信度分级，与平台条目分开）
+compatibility:
+  canonical_format: "agent-skills"
+  activation:
+    mode: "auto"
+  execution:
+    context: "inline"
+    shell: "bash"
+  trust:
+    source_tier: "local"
+    remote_inline_execution: "forbid"
+  multi_source_fallback:
+    doc: "references/multi-source-fallback.md"
+    when: "目标平台返回 login-gated / blocked 时"
+    ladder: ["告知并让用户三选一", "联网检索补源", "扫码登录", "换关键词"]
+    rule: "平台条目与网页来源分表呈现，网页源写「据 <来源> 记载」"

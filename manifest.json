@@ -1,0 +1,119 @@
+{
+  "name": "topic-scout",
+  "version": "1.0.0",
+  "owner": "WorkBuddy",
+  "updated_at": "2026-10-13",
+  "status": "active",
+  "maturity_tier": "production",
+  "lifecycle_stage": "production",
+  "context_budget_tier": "production",
+  "review_cadence": "monthly",
+  "category": "research",
+  "complexity_tier": "complex",
+  "factory_components": [
+    "references",
+    "scripts",
+    "evals",
+    "agents"
+  ],
+  "verified_platforms": [
+    {
+      "name": "B站",
+      "key": "bilibili",
+      "mode": "免登录",
+      "fields": "完整(播放/点赞/评论/收藏)",
+      "status": "verified-2026-10-13",
+      "role": "主通道"
+    },
+    {
+      "name": "抖音",
+      "key": "douyin",
+      "mode": "需登录（硬门禁 status_code=2483）",
+      "fields": "标题/作者/点赞/评论/收藏/转发",
+      "status": "login-gated-verified-2026-10-14",
+      "role": "未登录直接拒；免登录只能取热榜与 /shipin 页"
+    },
+    {
+      "name": "小红书",
+      "key": "xiaohongshu",
+      "mode": "需登录",
+      "fields": "点赞/收藏/评论",
+      "status": "login-gated",
+      "role": "x-s/x-t 签名校验拦截"
+    },
+    {
+      "name": "快手",
+      "key": "kuaishou",
+      "mode": "需登录（内部接口 result=2）",
+      "fields": "标题/作者/播放/点赞/评论",
+      "status": "login-gated-verified-2026-10-14",
+      "role": "页面纯 CSR，接口拒未登录；自造请求签名失败"
+    },
+    {
+      "name": "YouTube",
+      "key": "youtube",
+      "mode": "需网络可达 + yt-dlp",
+      "fields": "播放量(flat 模式无点赞)",
+      "status": "network-gated",
+      "role": "国内直连不可达"
+    },
+    {
+      "name": "X (Twitter)",
+      "key": "x",
+      "mode": "需登录 + 强反爬",
+      "fields": "无",
+      "status": "unavailable",
+      "role": "默认不纳入"
+    }
+  ],
+  "capabilities": [
+    "六平台按主题检索",
+    "互动量加权热度 TopN",
+    "数据源状态如实披露",
+    "免登录通路（热榜 / 搜索引擎索引 / shipin 页）",
+    "免登录热榜抓取（抖音/微博/B站/百度）",
+    "登录复用（本机浏览器 cookie 导出 / 持久化 profile）",
+    "多信息源兜底（平台需登录时转联网检索）",
+    "第三方网页来源分层标注",
+    "内容蒸馏与文案骨架",
+    "金句溯源",
+    "跨平台交叉验证与孤证标记",
+    "视频截帧配图",
+    "图文并茂单文件报告"
+  ],
+  "core_constraints": [
+    "拿不到就如实说，绝不编造",
+    "原创不等于洗稿，引用必须标出处",
+    "必须与互联网交叉验证，孤证须标注",
+    "平台需登录时不交单源报告，走多源兜底并分层标注",
+    "绝不尝试破解平台签名/绕过风控",
+    "图文并茂，每张图须标注来源",
+    "最后主动询问是否制作小视频"
+  ],
+  "login_support": {
+    "persistent_profile": "collect_topics.py --profile <dir> --headful",
+    "cookie_import": "import_login.py --browser chrome --domain douyin.com",
+    "known_limit": "Chrome 运行时 cookie 库被独占锁，需先完全退出浏览器"
+  },
+  "no_login_sourcing": {
+    "doc": "references/no-login-sourcing.md",
+    "hotlist_script": "scripts/fetch_hotlist.py",
+    "hotlist_verified": {"douyin": "ok", "weibo": "ok", "bilibili": "ok",
+                          "baidu": "ok", "zhihu": "unavailable", "kuaishou": "unavailable"},
+    "top_method": "WebSearch 用 site:<域名> <关键词>，搜索引擎索引常含视频完整文案",
+    "accessible_pages": ["douyin.com/hot", "douyin.com/shipin/<id>"],
+    "gated": ["抖音搜索（2483）", "抖音话题页", "快手搜索", "小红书搜索"],
+    "key_distinction": "热榜免登录可得；搜索必须登录"
+  },
+  "multi_source_fallback": {
+    "enabled": true,
+    "doc": "references/multi-source-fallback.md",
+    "ladder": [
+      "如实告知并让用户三选一",
+      "联网检索补源（官方文档/权威媒体/中文整理/争议反证）",
+      "用户扫码登录（--headful）",
+      "换关键词叫法重试"
+    ],
+    "layering": "平台条目与第三方网页来源必须分表，网页源标注「据 <来源> 记载」"
+  }
+}
